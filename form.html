@@ -22,18 +22,22 @@
           <legend><strong>Biodata</strong></legend>
           <table>
             <tr>
+                <!--membuat blank square yg akan diisi dg nama-->
               <td>Nama Mahasiswa:</td>
               <td><input type="text" name="nama" placeholder="Nama Anda" required></td>
             </tr>
             <tr>
+                <!--membuat blank square yg diisi dg NIM-->
               <td>No Induk Mahasiswa (NIM):</td>
               <td><input type="text" name="nim" placeholder="123456789" required></td>
             </tr>
             <tr>
+                <!--membuat textarea-->
               <td>Alamat Mahasiswa:</td>
               <td><textarea name="alamat" placeholder="Alamat Anda" required></textarea></td>
             </tr>
             <tr>
+                <!--membuat option tanggal, bulan, tahun-->
               <td>Tanggal Lahir:</td>
               <td>
                 <select name="tanggal_lahir" required>
@@ -123,6 +127,7 @@
               </td>
             </tr>
             <tr>
+                <!--membuat radio untuk jenis kelamin-->
               <td>Jenis Kelamin:</td>
               <td>
                 <input type="radio" name="jenis_kelamin" value="Pria" id="Pria" checked><label for="Pria">Pria</label>
@@ -130,14 +135,17 @@
               </td>
             </tr>
             <tr>
+                <!--membuat tombol untuk mengupload foto-->
               <td>Upload Foto:</td>
               <td><input type="file" name="foto" accept="image/*" required></td>
             </tr>
             <tr>
+                <!--membuat blank square yg akan diisi dg url web-->
               <td>URL Website:</td>
               <td><input type="url" name="website" placeholder="URL Website Anda" required></td>
             </tr>
             <tr>
+                <!--membuat blank square yg akan diisi dg perguruan tinggi-->
               <td>Perguruan Tinggi:</td>
               <td><input type="text" name="perguruan_tinggi" required></td>
             </tr>
@@ -150,14 +158,17 @@
             <legend><strong>Info Akun</strong></legend>
             <table>
             <tr>
+                <!--membuat blank square yg diisi dg email-->
                 <td>Email:</td>
                 <td><input type="email" name="email" placeholder="Email Anda" required></td>
             </tr>
             <tr>
+                <!--membuat blank square yg diisi dg username-->
                 <td>Username:</td>
                 <td><input type="text" name="username" placeholder="Username Anda" required></td>
             </tr>
             <tr>
+                <!--membuat blank square yg diisi dg password-->
                 <td>Password:</td>
                 <td><input type="" name="password" placeholder="Password Anda" required></td>
             </tr>
@@ -175,6 +186,7 @@
         <table>
         <tr>
           <td>
+            <!--membuat checkbox-->
             <input type="checkbox" name="kemampuan[]" value="HTML" required> HTML
             <input type="checkbox" name="kemampuan[]" value="CSS" required> CSS
             <input type="checkbox" name="kemampuan[]" value="Javascript" required> Javascript
@@ -189,6 +201,7 @@
 
       <br> 
 
+      <!--membuat 3 button dg nama yg berbeda-->
       <button type="submit"><strong>Reset</strong></button>
       <button type="submit"><strong>Simpan</strong></button>
       <button type="submit"><strong>Button</strong></button>
